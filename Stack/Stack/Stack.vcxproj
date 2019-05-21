@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{46F9D5B3-D958-42F3-BF22-54C1032C4378}</ProjectGuid>
-    <RootNamespace>LinerList</RootNamespace>
+    <ProjectGuid>{CDE899D0-ED91-429F-8B5A-246EF6C373E6}</ProjectGuid>
+    <RootNamespace>Stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,15 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DoubleLinkList.h" />
-    <ClInclude Include="LinkList.h" />
-    <ClInclude Include="SquenceList.h" />
+    <ClInclude Include="SequenceStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DoubleLinkList.cpp" />
-    <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SquenceList.cpp" />
+    <ClCompile Include="SequenceStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

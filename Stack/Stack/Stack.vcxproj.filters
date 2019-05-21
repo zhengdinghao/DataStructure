@@ -15,28 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SquenceList.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LinkList.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="DoubleLinkList.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="LinkList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SquenceList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="DoubleLinkList.cpp">
+    <ClCompile Include="SequenceStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SequenceStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
